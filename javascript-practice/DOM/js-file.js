@@ -36,4 +36,11 @@ container2P.textContent = "ME TOO!";
 
 container2.appendChild(container2P);
 
+const btn2 = document.querySelector('#btn2');
+btn2.onclick = () => alert("Hello World");
 
+//best method
+const btn3 = document.querySelector('#btn3');
+btn3.addEventListener('click', () => {
+  alert("Hello World");
+});
